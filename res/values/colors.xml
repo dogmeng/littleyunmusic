@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="toolbarTextColor">#ffffffff</color>
+    <color name="whitealpha">#90ffffff</color>    
+    <color name="toolbarselectedColor">#bec4d0</color>
+    <color name="toolbarTextNormalColor">#646c9a</color>
+    <color name="themeBgNormalColor_Yellow">#dea702</color>
+    <color name="themeBgNormalColor_Green">#20d0b8</color>
+    <color name="themeBgNormalColor_Purple">#c870f0</color>
+    <color name="themeBgNormalColor_red">#f04870</color>   
+    <color name="TabBgColor">#385070</color>
+    <color name="TabBgColoralpha">#50385070</color>
+    <color name="playerController">#141d2c</color>
+    <color name="itemicon">#385070</color>
+    <color name="unselectorTextColor">#f0f0f0</color>
+    
+    <color name="crop__button_bar">#f3f3f3</color>
+    <color name="crop__button_text">#666666</color>
+    <color name="crop__selector_pressed">#1a000000</color>
+    <color name="crop__selector_focused">#77000000</color>
+    
+    
+</resources>

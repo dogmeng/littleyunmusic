@@ -1,0 +1,132 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+        <item name="colorControlNormal">@color/toolbarTextColor</item>
+    </style>
+    <style name="ToolbarTheme" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+        <item name="colorControlNormal">@color/toolbarTextColor</item>
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="bg_normal_color">@color/themeBgNormalColor_Yellow</item>
+    </style>
+        <style name="AppThemeGreen" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="bg_normal_color">@color/themeBgNormalColor_Green</item>
+    </style>
+        <style name="AppThemePurple" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="bg_normal_color">@color/themeBgNormalColor_Purple</item>
+    </style>
+     <style name = "Theme.ToolBar.Base" parent="Theme.AppCompat.Light.NoActionBar" >
+         <item name="android:colorBackground">?attr/bg_normal_color</item>
+         <item name="android:textColorPrimary">@color/toolbarTextColor</item>
+         <item name="actionOverflowMenuStyle">@style/OverflowMenuStyle</item>
+    </style>
+    <style name="OverflowMenuStyle" parent="Widget.AppCompat.Light.PopupMenu.Overflow">
+        <item name="overlapAnchor">false</item>
+    </style>
+
+    <style name="toolbar_text_style">
+        <item name="android:textColor">@color/toolbarTextColor</item>
+        <item name="android:textSize">@dimen/toolbar_text_size</item>
+    </style>
+    <style name="tab_img">
+        <item name="android:layout_marginRight">@dimen/tab_margin</item>
+        <item name="android:layout_marginLeft">@dimen/tab_margin</item>
+        <item name="android:layout_marginTop">@dimen/tablayout_height</item>
+		<item name="android:layout_marginBottom">@dimen/tab_bottom</item>
+    </style>
+    <style name="mymusic_model_btn">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="stroke_width">1dp</item>
+        <item name="roundrect_imageview">true</item>
+ 		<item name="round_radius">16dp</item>
+ 		<item name="padding">@dimen/tab_bottom</item>
+ 		<item name="text_size">@dimen/img_text_size</item>
+ 		<item name="stroke_color">@color/toolbarTextColor</item>
+
+    </style>
+    
+    <style name="playlist_tab">
+        <item name="android:textColor">@color/toolbarTextColor</item>
+        <item name="android:textSize">@dimen/img_text_size</item>
+    </style>
+    <style name="playbar_btn">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>       
+    </style>
+    <style name="PopuDefaultFade">
+        <item name="android:windowEnterAnimation">@anim/popu_alpha_in</item>
+        <item name="android:windowExitAnimation">@anim/popu_alpha_out</item>
+    </style>
+        <style name="CustomDatePickerDialog" parent="@style/AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowAnimationStyle">@style/dialog_fragment_animation</item>
+
+    </style>
+    <style name="dialog_fragment_animation">
+        <item name="android:windowEnterAnimation">@anim/dialog_in_bottom</item>
+        <item name="android:windowExitAnimation">@anim/dialog_out_bottom</item>
+    </style>
+    
+    
+    
+    <style name="Crop"></style>
+
+    <style name="Crop.DoneCancelBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/crop__bar_height</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:divider">@drawable/crop__divider</item>
+        <item name="android:background">@color/crop__button_bar</item>
+    </style>
+
+    <style name="Crop.ActionButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/crop__selectable_background</item>
+    </style>
+
+    <style name="Crop.ActionButtonText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingRight">20dp</item> <!-- Offsets left drawable -->
+        <item name="android:drawablePadding">8dp</item>
+        <item name="android:textColor">@color/crop__button_text</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="Crop.ActionButtonText.Done">
+        <item name="android:drawableLeft">@drawable/crop__ic_done</item>
+        <item name="android:text">@string/crop__done</item>
+    </style>
+
+    <style name="Crop.ActionButtonText.Cancel">
+        <item name="android:drawableLeft">@drawable/crop__ic_cancel</item>
+        <item name="android:text">@string/crop__cancel</item>
+    </style>
+
+</resources>

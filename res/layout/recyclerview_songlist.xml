@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/toolbarTextColor" >
+    <ImageView 
+        android:id="@+id/song_current"
+        android:layout_marginLeft="16dp"
+       	android:layout_marginTop="4dp"
+       	android:layout_marginBottom="4dp"
+       	android:layout_alignParentLeft="true" 
+       	android:layout_width="32dp"
+   		android:layout_height="32dp"
+   		android:background="@drawable/playing"
+   		android:visibility="gone"
+        />
+   <ImageView 
+        android:id="@+id/song_img"
+       	android:layout_marginLeft="10dp"
+       	android:layout_marginTop="4dp"
+       	android:layout_marginBottom="4dp"
+       	android:layout_width="60dp"
+   		android:layout_height="60dp"
+   		android:layout_toRightOf="@id/song_current"
+   		android:background="@drawable/album"
+       />
+   <LinearLayout 
+       	android:layout_width="wrap_content"
+   		android:layout_height="wrap_content"
+   		android:layout_centerVertical="true"
+   		android:layout_margin="5dp"
+   		android:layout_toRightOf="@id/song_img"
+   		android:orientation="vertical"
+   
+   		
+       >
+          <TextView 
+	       	android:id="@+id/song_title"
+	       	android:layout_width="wrap_content"
+	   		android:layout_height="wrap_content"	   		
+	  		android:textSize="16sp"
+	  		android:maxWidth="200dp"
+	   		android:textColor="@color/TabBgColor"
+	   		android:ellipsize="end"
+	   		android:singleLine="true"
+       		/>
+          <TextView 
+	       	android:id="@+id/song_detail"
+	       	android:layout_width="wrap_content"
+	   		android:layout_height="wrap_content"
+	   		android:layout_marginTop="4dp"
+	   		android:textSize="12sp"
+			android:maxWidth="200dp"
+	   		android:singleLine="true"
+	   		android:ellipsize="end"
+       		/>
+   </LinearLayout>
+   <ImageView 
+        android:id="@+id/song_more"
+       	android:layout_marginRight="16dp"
+		android:layout_centerVertical="true"
+       	android:layout_width="wrap_content"
+   		android:layout_height="wrap_content"
+   		android:layout_alignParentRight="true" 
+   		android:src="@drawable/more"
+       />
+   
+    
+
+</RelativeLayout>

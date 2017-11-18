@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/playfragment_bag"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+        <android.support.v4.view.ViewPager
+        android:id="@+id/roundview_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"         
+        />
+       <RelativeLayout 
+         	android:layout_width="wrap_content"
+	      	android:layout_height="0dp"
+	      	android:layout_weight="1"  
+	      	android:layout_marginLeft="32dp"
+	      	android:layout_marginRight="32dp"
+	       	android:layout_marginTop="4dp"
+	       	android:layout_marginBottom="4dp"        
+         >
+	   <ImageView 
+	        android:id="@+id/roundview_add"
+	       	android:layout_width="28dp"
+	   		android:layout_height="28dp"
+	   		android:layout_alignParentLeft="true"
+	   		android:background="@drawable/favourite"
+	       /> 
+	     <ImageView 
+	        android:id="@+id/roundview_down"
+	       	android:layout_width="28dp"
+	   		android:layout_height="28dp"
+	   		android:layout_centerHorizontal="true"
+	   		android:background="@drawable/down_music"
+       />
+	     <ImageView 
+	        android:id="@+id/roundview_detail"
+	       	android:layout_width="28dp"
+	   		android:layout_height="28dp"
+	   		android:layout_alignParentRight="true"
+	   		android:background="@drawable/detail"
+       />           
+     </RelativeLayout>
+
+
+
+
+</LinearLayout>

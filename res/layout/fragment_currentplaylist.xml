@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <RelativeLayout 
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_margin="16dp"
+        >
+         <TextView 
+	       	android:id="@+id/tv_playmode"
+	       	android:layout_width="wrap_content"
+	   		android:layout_height="wrap_content"	   		
+	  		android:textSize="16sp"
+	  		android:layout_alignParentLeft="true"
+	   		android:textColor="@color/TabBgColor"
+	   		android:singleLine="true"
+       		/>
+           <TextView 
+	       	android:id="@+id/tv_playnumbers"
+	       	android:layout_width="wrap_content"
+	   		android:layout_height="wrap_content"	   		
+	  		android:textSize="16sp"
+	  		android:layout_marginLeft="16dp"
+	  		android:layout_toRightOf="@id/tv_playmode"
+	   		android:textColor="@color/TabBgColor"
+	   		android:singleLine="true"
+       		/>
+           <TextView 
+	       	android:id="@+id/tv_deleteall"
+	       	android:layout_width="wrap_content"
+	   		android:layout_height="wrap_content"	   		
+	  		android:textSize="16sp"
+	  		android:layout_marginLeft="16dp"
+	  		android:layout_alignParentRight="true"
+	   		android:textColor="@color/TabBgColor"
+	   		android:singleLine="true"
+	   		android:text="@string/delete_all"
+	   		android:drawablePadding="4dp"
+	   		android:drawableLeft="@drawable/deleteall"
+       		/> 
+       		<TextView 
+	       	android:id="@+id/tv_addtofavourite"
+	       	android:layout_width="wrap_content"
+	   		android:layout_height="wrap_content"	   		
+	  		android:textSize="16sp"
+	  		android:drawablePadding="4dp"
+	  		android:drawableLeft="@drawable/add_tofavourite"
+	  		android:layout_toLeftOf="@id/tv_deleteall"
+	   		android:textColor="@color/TabBgColor"
+	   		android:text="@string/add_tofavorite"
+	   		android:singleLine="true"
+       		/>       
+    </RelativeLayout>
+    <android.support.v7.widget.RecyclerView
+	       android:id="@+id/current_playlist"
+	       android:layout_width="match_parent"
+	       android:layout_height="match_parent" />
+
+</LinearLayout>

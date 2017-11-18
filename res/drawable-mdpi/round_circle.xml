@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+        <item >
+        <shape android:shape="oval">
+            <padding 
+                android:bottom="1dp"
+                android:left="1dp"
+                android:right="1dp"
+                android:top="1dp"/>
+            <solid android:color="#20CCCCCC"/>
+            <size
+                android:height="10dp"
+                android:width="10dp"
+                ></size>
+        </shape>
+    </item>
+    <item >
+        <shape android:shape="oval">
+            <padding 
+                android:bottom="1dp"
+                android:left="1dp"
+                android:right="1dp"
+                android:top="1dp"/>
+            <solid android:color="#40CCCCCC"/>
+            <size
+                android:height="10dp"
+                android:width="10dp"
+                ></size>
+        </shape>
+    </item>
+    <item >
+        <shape android:shape="oval">
+            <padding 
+                android:bottom="1dp"
+                android:left="1dp"
+                android:right="1dp"
+                android:top="1dp"/>
+            <solid android:color="#60CCCCCC"/>
+            <size
+                android:height="10dp"
+                android:width="10dp"
+                ></size>
+        </shape>
+    </item>
+    <item >
+        <shape android:shape="oval">
+            <padding 
+                android:bottom="1dp"
+                android:left="1dp"
+                android:right="1dp"
+                android:top="1dp"/>
+            <solid android:color="@color/toolbarTextColor"/>
+            <size
+                android:height="10dp"
+                android:width="10dp"
+                ></size>
+        </shape>
+    </item>
+
+
+</layer-list>

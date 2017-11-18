@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Here</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="local">本地音樂</string>
+    <string name="favorite">收藏夾</string>
+    <string name="down_music">下載列表</string>
+    <string name="recent_music">最近播放</string>
+    <string name="play_list">播放列表</string>
+    <string name="more">更多</string>
+    <string name="unlogin">未登錄</string>
+    <string name="createplaylist">新建播放列表</string>
+    <string name="playlistnamehint">請輸入歌單名稱</string>
+    <string name="cancel">取消</string>
+    <string name="create">新建</string>
+    <string name="sure">確定</string>
+    <string name="unknown">未知</string>
+    <string name="scan_localmusic">掃描本地音樂</string>
+    <string name="down_localmusicwords">獲取封面歌詞</string>
+    <string name="improve_musicquatity">音質管理</string>
+    <string name="recent_add">最近添加</string>
+    <string name="next_play">已加入下一首播放</string>
+    <string name="tiptitle">温馨提示</string>
+    <string name="tippermission">請確保權限開啟,以免影響此功能使用</string>
+    <string name="mode_none">列表循環</string>
+    <string name="mode_repeat">單曲循環</string>
+    <string name="mode_random">隨機播放</string>
+    <string name="delete_all">清空</string>
+    <string name="add_tofavorite">收藏</string>
+    <string name="add_tofavoritetitle">收藏到歌單</string>
+    <string name="seek_time">00:00</string>
+    <string name="exit">退出</string>
+    <string name = "allpictures">所有圖片</string>
+    <string name = "picture">圖片</string>
+    <string name = "allshow">已經到底咯</string>
+    
+    
+    <string name="crop__saving">Saving picture…</string>
+    <string name="crop__wait">Please wait…</string>
+    <string name="crop__pick_error">No image sources available</string>
+
+    <string name="crop__done">DONE</string>
+    <string name="crop__cancel">CANCEL</string>
+
+</resources>

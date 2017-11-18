@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.h2603953.littleyun"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:gravity="center">
+    <com.h2603953.littleyun.widget.CircleImageView 
+	       android:id="@+id/createplaylist"
+	       android:layout_marginTop="10dp"
+	       android:layout_width="80dp"
+	       android:layout_height="100dp"
+	       android:layout_marginLeft = "0dp"
+	       app:stroke_width="2dp" 
+	       app:round_radius="0dp"
+	       app:padding="@dimen/tab_bottom"
+	       app:roundrect_imageview="true"
+	       app:text_size="@dimen/img_text_size"
+	       app:stroke_color="@color/toolbarTextColor"      
+        />    
+</LinearLayout>

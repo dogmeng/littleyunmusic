@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+       <TextView 
+	       	android:id="@+id/tv_addtofavtitle"
+	       	android:layout_width="wrap_content"
+	   		android:layout_height="wrap_content"	   		
+	  		android:textSize="16sp"
+	  		android:layout_gravity="center"
+	   		android:textColor="@color/TabBgColor"
+	   		android:singleLine="true"
+	   		android:layout_margin="10dp"
+	   		android:text="@string/add_tofavoritetitle"
+       		/>
+        <android.support.v7.widget.RecyclerView
+	       android:id="@+id/current_favlist"
+	       android:layout_width="match_parent"
+	       android:layout_height="match_parent" />
+    
+
+</LinearLayout>

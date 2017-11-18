@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/notification_layout"
+    android:background="@color/TabBgColor"
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+
+    <ImageView
+        android:id="@+id/notification_image"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_margin="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:scaleType="centerCrop" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/notification_image"
+        android:layout_above="@+id/notification_control"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/music_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxWidth="180dp"
+            android:ellipsize="end"
+            android:fadingEdge="horizontal"
+            android:fadingEdgeLength="10dp"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="@color/toolbarTextColor"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/music_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxWidth="180dp"
+            android:fadingEdge="horizontal"
+            android:fadingEdgeLength="10dp"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="@color/whitealpha"
+            android:textSize="12sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/notification_control"
+        android:layout_marginLeft="10dp"      
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/notification_image"
+        android:layout_alignBottom="@+id/notification_image">
+
+        <ImageView
+            android:id="@+id/play_prev"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/play_prev"      
+            android:layout_marginRight="26dp" />
+
+        <ImageView
+            android:id="@+id/play"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/play"
+            android:layout_marginRight="26dp"/>
+
+        <ImageView
+            android:id="@+id/play_next"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/play_next"  
+             />
+    </LinearLayout>
+    <ImageView
+       android:id="@+id/notification_close" 
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentTop="true"
+       android:layout_alignParentRight="true"
+       android:padding="5dp"
+       android:src="@drawable/delete"
+       >       
+    </ImageView>
+</RelativeLayout>
